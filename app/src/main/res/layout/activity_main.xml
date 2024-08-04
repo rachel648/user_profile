@@ -207,6 +207,7 @@
                     android:layout_marginTop="16dp"
                     android:hint="Password"
                     android:padding="8dp"
+                    android:textColorHint="@color/black"
                     android:textColor="@color/black"/>
 
                 <View
@@ -221,7 +222,8 @@
                     android:layout_marginTop="16dp"
                     android:hint="Telephone"
                     android:padding="8dp"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -235,7 +237,8 @@
                     android:layout_marginTop="16dp"
                     android:hint="Address"
                     android:padding="8dp"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -249,7 +252,8 @@
                     android:layout_marginTop="16dp"
                     android:hint="Location"
                     android:textColor="@color/black"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:textColorHint="@color/black"/>
 
                 <View
                     android:layout_width="match_parent"
