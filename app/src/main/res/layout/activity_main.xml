@@ -69,8 +69,8 @@
 
                     <ImageView
                         android:id="@+id/imageView2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="404dp"
+                        android:layout_height="360dp"
                         android:scaleType="centerCrop"
                         app:layout_constraintTop_toTopOf="parent"
                         app:srcCompat="@drawable/hello" />
@@ -123,7 +123,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingTop="8dp"
-                                android:text="Action One"
+                                android:text="Payment"
                                 android:textColor="#333333"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
@@ -157,7 +157,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingTop="8dp"
-                                android:text="Action Two"
+                                android:text="Settings"
                                 android:textColor="#333333"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
@@ -191,7 +191,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingTop="8dp"
-                                android:text="Action Three"
+                                android:text="Notification"
                                 android:textColor="#333333"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
@@ -262,11 +262,13 @@
 
                 <Button
                     android:id="@+id/submitButton"
-                    android:layout_width="wrap_content"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="24dp"
-                    android:text="Edit Profile" />
+                    android:text="Edit Profile"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#CCCCCC"/>
 
             </LinearLayout>
         </LinearLayout>
